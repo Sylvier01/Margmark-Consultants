@@ -194,7 +194,7 @@ dt{
     list-style : none;
     line-height: 2;
     border: 1px solid #ccc;
-    /* width: fit-content; */
+    width: 75%;
     padding: 1em;
 }
 .whatsapp-link{
