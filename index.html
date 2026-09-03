@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,7 +24,7 @@
             <li><a href="#home" class="active">HOME</a></li>
             <li><a href="#services">SERVICES</a></li>
             <li><a href="#about">ABOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>            
+            <li class="cta"><a href="#contact">CONTACT</a></li>            
         </ul>
     </nav>    
 </header>
@@ -40,18 +41,34 @@
                     <h2>Build sustainable practices and
                         meet operation standards
                     </h2>
-                    <a href="#contact"><button class="hero-Btn">Talk To Us</button></a> 
+                    <a href="#contact"><button class="hero-Btn cta">Talk To Us</button></a> 
                 </div>
              
         </section>
 
         <section class="photos-section">
             <h3>Our Services</h3>
-            <div class="photos">            
-                <img src="assets/1.jpeg" alt="">
-                <img src="assets/2.jpeg" alt="">
-                <img src="assets/3.jpeg" alt="">
-                <img src="assets/4.jpeg" alt="">
+            <div class="photos">
+                <div class="photo">                
+                    <img src="assets/4.jpeg" alt="Fumigation">
+                    <p>Internal and external fumigation</p>
+                </div>
+
+                <div class="photo">                         
+                    <img src="assets/1.jpeg" alt="cleaning services">
+                    <p>Professional cleaning services</p>
+                </div> 
+                <div class="photo">
+                    <img src="assets/2.jpeg" alt="">
+                    <p>High-ceiling cleaning</p>
+                </div>
+                
+                <div class="photo">
+                    <img src="assets/3.jpeg" alt="Bee hive removal">
+                    <p>Professional bee hives removal</p>
+                </div>
+                
+                
             </div>
         </section>
         
@@ -63,7 +80,10 @@
                 <dl>
                     <dt><h4>Fumigation and Decontamination</h4></dt>
                     <dd>We provide professional fumigation and decontamination services to control pests, eliminate harmful microorganisms, and maintain hygienic environments in workplaces, institutions, and facilities.</dd>
-                                                
+                     
+                    <dt><h4>Cleaning services</h4></dt>
+                    <dd>We provide expert cleaning solutions, specializing in comprehensive professional cleaning alongside specialized high-ceiling detailing. Beyond standard upkeep, we also handle safe bee removal to protect your property and ensure peace of mind.</dd>
+
                     <dt><h4>Environmental Impact Assessment (EIA)</h4></dt>                  
                     <dd>Our experts conduct Environmental Impact Assessments to help organizations identify, evaluate, and manage environmental risks in compliance with national regulations and best practices.</dd>
 
@@ -109,20 +129,54 @@
                         Get in touch with Margmark Consultants to discuss your needs or request a consultation through:
                         <br>
                         <ul>
-                            <li>Phone: +254 701973009</li>
-                            <li>Email: margmarkconsultants@gmail.com</li>
-                            <li>Location: Kenya</li>
+                            <li>
+                                <a 
+                                class="whatsapp-link"
+                                href="https://wa.me/254701973009" 
+                                target="_blank">
+                                <div class="fa-brands fa-whatsapp"></div> 
+                                    <span class="whatsapp-link-info">Chat on WhatsApp</span>
+                                </a>
+                            </li>
+                            <li><b>Phone</b>: +254 701973009</li>
+                            <li><b>Email:</b> margmarkconsultants@gmail.com</li>
+                            <li><b>Location:</b> Kenya</li>
+                            
                         </ul>
 
-                       You may also reach us through our contact form, and a member of our team will respond promptly.
-                        
+                     <!-- <p>You may also reach us through our contact form below, and a member of our team will respond promptly.</p>                      -->
                 </div> 
-               
+                <!-- <FORM>
+                    <fieldset>
+                        <legend>FILL THE FORM</legend>
+                        <label for = "fname">First Name:</label>
+                        <input type = "text" id = "fname" name = "fname" placeholder = "Enter your first name">
+                        <br><br>
+
+                        <label for = "lname">Last Name:</label>
+                        <input type = "text" id = "fname" name = "fname" placeholder = "Enter your last name">
+                        <br><br>
+
+                        Gender:
+                        <input type= "radio" id = "male" name = "gender" value = "male" required>
+                        <label for="male">Male</label>
+                        <input type= "radio" id = "female" name = "gender" value = "female" required>
+                        <label for="male">Female</label>
+                        <br><br>
+
+                        <label>Email: </label>
+                        <input type="email" id = "email" name = "email" placeholder = "Enter your email" required>
+                        <br><br>
+
+                        <button id="newslettersFormsubmitBtn">Submit</button>
+                    </fieldset>
+                </FORM>
+                 -->
             </section>
         
     </main>
 
-    <a href="#home" id="#back-to-top-btn"><button class="back-to-top-btn"><span>⬆</span> Scroll To Top</button></a>
+    <a href="#home" id="back-to-top-btn"><button class="back-to-top-btn"><span>⬆</span> Scroll To Top</button></a>
 <script src="script.js"></script>               
 </body>
 <footer>
