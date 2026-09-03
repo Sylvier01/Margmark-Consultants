@@ -9,7 +9,7 @@ body{
     font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    background:url("./assets/WEBP/1.webp") center/cover fixed #0b4b84;
+    background:url("./assets/1.webp") center/cover fixed #0b4b84;
 }
 .cta{
     background-color: rgb(12, 157, 241);
