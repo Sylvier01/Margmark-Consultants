@@ -10,6 +10,7 @@ body{
     scroll-behavior: smooth;
     box-sizing: border-box;
     background:url("./assets/1.webp") center/cover fixed #0b4b84;
+    overflow-y: hidden;
 }
 .cta{
     background-color: rgb(12, 157, 241);
