@@ -9,7 +9,7 @@ body{
     font-family: "Roboto", sans-serif;
     scroll-behavior: smooth;
     box-sizing: border-box;
-    background:url("./assets/WEBP/1.webp") center/cover fixed #0b4b84;
+    background:url("./assets/1.webp") center/cover fixed #0b4b84;
     overflow-x: hidden;
 }
 .menu-icon{
@@ -296,7 +296,7 @@ footer{
         border-bottom: 0.5px solid white;
     }
     nav li:last-child{
-        margin: auto;
+        margin: 1em auto;
         width: fit-content;
     }
     nav a{
@@ -305,7 +305,7 @@ footer{
     }
     h1{
         font-size: 1.5rem;
-        /* margin-top: 8em; */
+        margin-top: 1em;
     }
     h2{
         font-size: 2rem;
