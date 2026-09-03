@@ -193,7 +193,8 @@ dt{
     list-style : none;
     line-height: 2;
     border: 1px solid #ccc;
-    width: 50%;
+    width: fit-content;
+    padding: 1em;
 }
 .whatsapp-link{
     font-size:16px;
